@@ -1,0 +1,29 @@
+.btn {
+    height: 40px;
+    width: 110px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #2679A0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+    &:hover {
+        background-color: darken(#2679A0, 6%);
+    }
+
+    &:active {
+        background-color: darken(#2679A0, 10%);
+    }
+
+    &:focus {
+        outline:0;
+    }
+
+
+}
+
+.btn + .btn {
+    margin-left: 6px;
+}
+
